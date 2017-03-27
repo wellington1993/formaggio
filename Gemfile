@@ -51,3 +51,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Gems Instaladas
+gem 'delayed_job_active_record'
+gem 'devise'
+gem 'foreman'
+gem 'rails_12factor', group: :production
+
