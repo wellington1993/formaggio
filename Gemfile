@@ -53,21 +53,39 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Gems Instaladas
+# Gems Instaladas como extras!
+
+# Dependências do JS
 gem 'libv8'
 gem "execjs"
 gem "therubyracer"
 
+# LESS
 gem 'less'
 gem "less-rails"
 
+# preprocessadores e frameworks
 gem "twitter-bootstrap-rails"
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'font-awesome-less', '~> 4.7.0'
 
+# Para criar tasks
 gem 'delayed_job_active_record'
+# Autenticação
 gem 'devise'
+# Para testar o Procfile e o heroku usa por trás
 gem 'foreman'
 
+# Coisa do Heroku para ajustar logs
 gem 'rails_12factor', group: :production
+# Slider/Carousel de imagens
 gem 'jquery-slick-rails', '~> 1.6', '>= 1.6.0.2'
+# Para reorganizar os elementos de uma listagem ao redimensionar
+gem 'masonry-rails', '~> 0.2.4'
+# Para usar uma ou mais imagens de fundo ajustáveis
+gem 'backstretch-rails', '~> 2.0', '>= 2.0.4'
+# Para funcionar placeholder em sites antigos
+gem 'jquery-placeholder-rails', '~> 2.1', '>= 2.1.2'
+# Filtrar
+gem 'isotope-rails', '~> 2.2', '>= 2.2.2'
