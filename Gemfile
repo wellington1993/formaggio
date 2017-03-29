@@ -58,4 +58,6 @@ gem 'delayed_job_active_record'
 gem 'devise'
 gem 'foreman'
 gem 'rails_12factor', group: :production
-
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'jquery-slick-rails', '~> 1.6', '>= 1.6.0.2'
+gem 'font-awesome-less', '~> 4.7.0'
