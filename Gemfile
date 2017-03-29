@@ -54,10 +54,20 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gems Instaladas
+gem 'libv8'
+gem "execjs"
+gem "therubyracer"
+
+gem 'less'
+gem "less-rails"
+
+gem "twitter-bootstrap-rails"
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'font-awesome-less', '~> 4.7.0'
+
 gem 'delayed_job_active_record'
 gem 'devise'
 gem 'foreman'
+
 gem 'rails_12factor', group: :production
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-slick-rails', '~> 1.6', '>= 1.6.0.2'
-gem 'font-awesome-less', '~> 4.7.0'
