@@ -65,15 +65,21 @@ gem 'less'
 gem "less-rails"
 
 # preprocessadores e frameworks
-gem "twitter-bootstrap-rails"
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
-gem 'font-awesome-less', '~> 4.7.0'
+gem 'bootstrap', github: 'twbs/bootstrap-rubygem'
+gem 'bootstrap-sass'#, github: 'twbs/bootstrap-sass.git'
+
+# Use SCSS for stylesheets
+gem 'autoprefixer-rails'
+gem 'font-awesome-rails'
 
 # Para criar tasks
 gem 'delayed_job_active_record'
 # Autenticação
 gem 'devise'
+gem 'bcrypt'
+gem 'omniauth'
+gem 'omniauth-auth0'
+gem 'dotenv-rails'
 # Para testar o Procfile e o heroku usa por trás
 gem 'foreman'
 
@@ -89,3 +95,10 @@ gem 'backstretch-rails', '~> 2.0', '>= 2.0.4'
 gem 'jquery-placeholder-rails', '~> 2.1', '>= 2.1.2'
 # Filtrar
 gem 'isotope-rails', '~> 2.2', '>= 2.2.2'
+# Barra de progresso
+gem 'pace-rails', github: 'arubinofaux/pace-rails'
+# Recarregar página automaticamente
+group :development do
+  gem 'guard-livereload', github: 'guard/guard-livereload'
+end
+gem "paperclip", github: 'thoughtbot/paperclip'
