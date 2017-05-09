@@ -13,7 +13,7 @@ module Formaggio
     # -- all .rb files in that directory are automatically loaded.
 
     #Emoji
-    config.assets.paths << Gemojione.images_path
+    #config.assets.paths << Gemojione.images_path
     config.assets.precompile << "emoji/*.png"
     config.assets.precompile << "emoji/*.svg"
     config.assets.paths << Gemojione.sprites_path
