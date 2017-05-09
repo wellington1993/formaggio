@@ -1,0 +1,31 @@
+/* Custom CSS */
+
+
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link {
+  border-bottom: 5px solid #E30016;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00722C;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  border-bottom: 5px solid #00722C;
+}
+
+.nav-item {
+  padding-right: 5px;
+}
+
+.shadow {
+	box-shadow: 0 .1em 0 0 #e1e1e1,0 .2em .4em 0 rgba(0,0,0,.05);
+}
+
+.grey-border-bottom {
+  border-bottom: 2px solid #dddddd;
+}

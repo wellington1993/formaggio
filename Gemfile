@@ -102,5 +102,12 @@ gem 'pace-rails', github: 'arubinofaux/pace-rails'
 group :development do
   gem 'guard-livereload', github: 'guard/guard-livereload'
 end
+# Upload de Imagens
 gem "paperclip", github: 'thoughtbot/paperclip'
+# Ajuste de codificação
 gem 'rack-utf8_sanitizer', github: 'whitequark/rack-utf8_sanitizer'
+# Emoji
+#rake gemojione:install_assets
+
+gem 'gemojione'
+gem 'gitlab_emoji'
