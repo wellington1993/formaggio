@@ -16,7 +16,7 @@ module Formaggio
     #config.assets.paths << Gemojione.images_path
     config.assets.precompile << "emoji/*.png"
     config.assets.precompile << "emoji/*.svg"
-    config.assets.paths << Gemojione.sprites_path
+    #config.assets.paths << Gemojione.sprites_path
     config.assets.precompile << "emojione.sprites.css"
     config.assets.precompile << "emojione.sprites.png"
 
