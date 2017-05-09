@@ -58,6 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Dependências do JS
 gem 'libv8'
 gem "execjs"
+gem 'therubyrhino'
 gem "therubyracer"
 
 # LESS
@@ -81,18 +82,18 @@ gem 'omniauth'
 gem 'omniauth-auth0'
 gem 'dotenv-rails'
 # Para testar o Procfile e o heroku usa por trás
-gem 'foreman'
+gem 'foreman', github: 'ddollar/foreman'
 
 # Coisa do Heroku para ajustar logs
 gem 'rails_12factor', group: :production
 # Slider/Carousel de imagens
-gem 'jquery-slick-rails', '~> 1.6', '>= 1.6.0.2'
+gem 'jquery-slick-rails', github: 'bodrovis/jquery-slick-rails'
 # Para reorganizar os elementos de uma listagem ao redimensionar
-gem 'masonry-rails', '~> 0.2.4'
+gem 'masonry-rails', github: 'kristianmandrup/masonry-rails'
 # Para usar uma ou mais imagens de fundo ajustáveis
-gem 'backstretch-rails', '~> 2.0', '>= 2.0.4'
+gem 'backstretch-rails', github: 'socialreferral/backstretch-rails'
 # Para funcionar placeholder em sites antigos
-gem 'jquery-placeholder-rails', '~> 2.1', '>= 2.1.2'
+gem 'jquery-placeholder-rails', github: 'navinpeiris/jquery-placeholder-rails'
 # Filtrar
 gem 'isotope-rails', '~> 2.2', '>= 2.2.2'
 # Barra de progresso
@@ -102,3 +103,4 @@ group :development do
   gem 'guard-livereload', github: 'guard/guard-livereload'
 end
 gem "paperclip", github: 'thoughtbot/paperclip'
+gem 'rack-utf8_sanitizer', github: 'whitequark/rack-utf8_sanitizer'
