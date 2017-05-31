@@ -60,19 +60,13 @@ gem 'libv8'
 gem "execjs"
 gem 'therubyrhino'
 gem "therubyracer"
-
 # LESS
 gem 'less'
-gem "less-rails"
-
 # preprocessadores e frameworks
 gem 'bootstrap', github: 'twbs/bootstrap-rubygem'
-gem 'bootstrap-sass'#, github: 'twbs/bootstrap-sass.git'
-
 # Use SCSS for stylesheets
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
-
 # Para criar tasks
 gem 'delayed_job_active_record'
 # Autenticação
@@ -83,9 +77,8 @@ gem 'omniauth-auth0'
 gem 'dotenv-rails'
 # Para testar o Procfile e o heroku usa por trás
 gem 'foreman', github: 'ddollar/foreman'
-
 # Coisa do Heroku para ajustar logs
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'#, group: :production
 # Slider/Carousel de imagens
 gem 'jquery-slick-rails', github: 'bodrovis/jquery-slick-rails'
 # Para reorganizar os elementos de uma listagem ao redimensionar
@@ -104,10 +97,5 @@ group :development do
 end
 # Upload de Imagens
 gem "paperclip", github: 'thoughtbot/paperclip'
-# Ajuste de codificação
-gem 'rack-utf8_sanitizer', github: 'whitequark/rack-utf8_sanitizer'
-# Emoji
-#rake gemojione:install_assets
-
-gem 'gemojione'
-gem 'gitlab_emoji'
+gem 'dotenv'
+gem 'gemoji' #https://github.com/mcraiha/Unity-UI-emoji/tree/master/Assets/Textures/Emojis

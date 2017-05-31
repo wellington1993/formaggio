@@ -21,10 +21,11 @@ module Formaggio
     config.assets.precompile << "emojione.sprites.png"
 
 
-    config.middleware.insert 0, Rack::UTF8Sanitizer
+    #config.middleware.insert 0, Rack::UTF8Sanitizer
     config.encoding = "utf-8"
     Encoding.default_internal = Encoding::UTF_8
     Encoding.default_external = Encoding::UTF_8
 
+    config.public_file_server.enabled = true
   end
 end
